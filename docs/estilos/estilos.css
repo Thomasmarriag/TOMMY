@@ -1,0 +1,22 @@
+header{
+    border: 2px solid blue;
+    height: 100px;
+}
+@media (max-width: 426px)
+{
+header{
+    background: color blue
+}
+}
+
+@media (max-width: 1023px) and (min-width: 426px) {
+    header{
+        background-color: green;
+    }
+}
+@media (min-whidth: 1024px)
+{
+    header{
+        background-color: black
+    }
+}
