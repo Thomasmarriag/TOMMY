@@ -8,7 +8,7 @@ header{
 }
 @media(min-width: 425px){
     header{
-        background-color: black;
+        background-color: rgb(2, 231, 252);
     }
 }
 @media(min-width: 600px){
@@ -23,11 +23,13 @@ header{
 }
 #contenedor{
     display: flex;
+    justify-content: space-around;
 }
 .item{
-    width: 400px;
+    width: 100px;
     height: 100px;
     float: right;
+    
 }
 header img{
     height: 95px;
@@ -58,7 +60,7 @@ header img{
   .respmenu {
     color: white;
     position: relative;
-    background: #123456;
+    background: #3f03f0;
     min-height: 48px;
   }
   
@@ -87,7 +89,7 @@ header img{
     padding: 10px 20px;
     border-bottom: 2px solid #456789;
     max-width: 200px;
-    background: #234567;
+    background: #3f03f0;
     font-variant: small-caps;
     text-shadow: 1px 1px black;
   }
